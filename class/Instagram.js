@@ -1,20 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Instagram from "../../class/Instagram";
 
-const _layout = () => {
+const Instagram = () => {
     return (
         <View style={styles.page}>
-            <Instagram />
+            <Text>Instagram</Text>
         </View>
     )
 }
 
-export default _layout
+export default Instagram
 
 const styles = StyleSheet.create({
-    page: {
-        flex: 1,
-        backgroundColor: "white"
-    },
+
 })
